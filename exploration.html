@@ -12,7 +12,6 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="main.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body class="is-preload">
 
@@ -111,7 +110,8 @@
 								<li>Vector tilesets: GeoJSON, Shapefile, KML, or GPX files</li>
 							</ul>
 							<div class="content">
-							<span class="pics2"data-position="center"><img src="Images/mapbox.jpg" alt="Deep River" style ="width:500px; height:400px;" /></span>
+							<p><a href="https://chehbounkflemingc.github.io/GeoJsonLeafletbckp.html" target="_blank">Click here to open the Mapbox Interactive Map</a></p>
+							<span class="pics2"data-position="center"><img src="Images/mapbox.png" alt="Deep River" style ="width:500px; height:400px;" /></span>
 						</div>
 						<!-- Section -->
 					<section id="first">
@@ -137,7 +137,6 @@
 						<p> The maps produced by mapbox are of the highest quality. The basemaps and ability to create styles are unmatched. Cartogram is also a very nice feature for creating styles of the fly.
 						<span class="pics2"data-position="center"><img src="Images/mapbox1.JPG" alt="Popup" style ="width:500px; height:400px;" /></span>
 				
-					
 				
 				</section>
 				
@@ -167,16 +166,9 @@
 								</ul>
 							
 							
-							<h3><u>Overall Rating To This Project</u></h3>
-				<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
+							
 							
 						</div>
-						
-						
 					</section>
 
 						
@@ -216,47 +208,18 @@
 						<div class="content">
 						<h3> <u> Quality </u></h3>
 						<p> The maps produced by ArcGIS are of good quality. The basemaps are of a nice quality and there are plenty options which can be added to the a map that is suitable for the web application.
-						<span class="pics2"data-position="center"><img src="Images/arcmap.JPG" alt="Popup" style ="width:500px; height:400px;" /></span>
+						<span class="pics2"data-position="center"><img src="Images/mapbox1.jpg" alt="Popup" style ="width:500px; height:400px;" /></span>
 						
 						</div>
 						</section>
 					
-						<section id="first">
-						<header>
-							<h2>Findings</h2>
-						</header>
-						<div class="content">
-						
-							<h3>Pros</h3>
-							<ul><strong>
-								<li>Team better skilled in this software </li>
-								<li>Easy to learn and easy to use</li>
-								<li>Relatively quick build, easy pop-up tables </li>
-								<li>Ability to zoom and pan</li>
-								<li> Provides the option to view how the application would look on several mobile devices </li>
-								<li> Very good quality maps produced </li>
-						
-								</strong></ul>
-						<h3>Cons</h3>
-							
-								<ul><strong>
-									<li>Only software that will come with a price</li>
-									</strong></ul>
-							
-													<h3><u>Overall Rating To This Project</u></h3>
-				<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-							</div>
-						
-					</section>	
 							
 							
 							
 							
 							
+							
+					<!-- Section -->
 					<!-- Section -->
 					<section id="first">
 						<header>
@@ -264,37 +227,73 @@
 						</header>
 						<div class="content">
 						<h3>Leaflet</h3>
-							<p><strong>Leaflet is a free</strong>, open source and easily available, straightforward, lightweight, and adaptable mapping library. It allows to easily display web map.</p>
-							<p> Leaflet is good for mobile firendly web-app which allows to you zoom and pan around, to bring your own Bssemap and geoJSONs file, have layer interaction, popups, and much more. It also handles
-								editing with plugins, and it is easy to extend wiht plugins. </p>
-						<div>
-							<p> These layers correspond to Trails features provided by Deep River County and were published to AWS Server for Demo purposes without any processing. </p>
-							<span class="pics2"data-position="center"><img src="Images/Leaflet.png" alt="Leaflet Trail Mapping Demo" style ="width:700px; height:400px;" /></span>
-							<p><a href="https://chehbounkflemingc.github.io/GeoJsonLeafletbckp.html" target="_blank"> <strong>Click here </strong>to open the Interactive Leaflet Map</a></p>
+							<p>The interactive map below was obtained through Leaflet. We used ArcGIS Pro to load the gathered shapefiles and then convert them to GeoJSON files. These GeoJSON files were then used as input for building our LeafLet Map.
+ </p>
+						<span class="pics2"data-position="center"><img src="Images/leaflet.PNG" alt="Deep River" style ="width:700px; height:400px;" /></span>
+						<p><a href="https://chehbounkflemingc.github.io/GeoJsonLeafletbckp.html" target="_blank">Click here to open the Leaflet Interactive Map</a></p>
+
+					<!-- <span class="pics2"data-position="center"><iframe src="https://chehbounkflemingc.github.io/GeoJsonLeafletbckp.html" height="400" width="500"></iframe></span> </div> -->
 						</div>
 					</section>
+					
+					
+					<section id="first">
+						<header>
+							<h2>Criteria</h2>
+						</header>
+						<div class="content">
+						<p> While performing the Leaflet Demo using the complete dataset available, we were able to test its suitability to be our platfom of choice.</p>
+						<div class="content">
+						<h3> <u>Pop-up Table </u></h3>
+					<span class="pics2"data-position="center"><img src="Images/LeafletPopupTable.png" alt="Popup" style ="width:500px; height:400px;" /></span>
+					<p> On-click pop-up Tables are quite easy to configure on Leaflet using the onEachFeature option which is an a function that gets called on each feature before adding it to each GeoJSON layer. </p>
+					</div>
+			<div class="content">
+						<h3> <u>Cost </u></h3>
+					<p> Leaflet is a free, open source application</p>
+						<div class="content">
+						<h3> <u>Time </u></h3>	
+						<p> Leaflet was very time consuming when configuring on-click popups tables, applying styling, or adding a legend for one large GeoJson file containing a large number of collection features as coding needed be repeated for all identified features which is error prone.</p>
+						</div>
+						<div class="content">
+						<h3> <u> Quality </u></h3>
+						<p> The obtained Leaflet map allows users to zoom and pan around, to interact with individual layers in order to access all relevant.It does also offer many styling and basemap options that may be extended with appropriate plug-ins. 
+
+						<span class="pics2"data-position="center"><img src="Images/leafletzoomed.png" alt="Popup" style ="width:500px; height:400px;" /></span>
+				
+				
+				</section>		
+					
 							<!-- Section -->
 					<section id="first">
 						<header>
-							<h2>Findings</h2>
+							<h2>Challenges</h2>
 						</header>
 						<div class="content">
 						
 						<h3> Pros </h3>
 							<ul>
-								<strong><li> Layer interaction, zooming/ panning and pop-ups. </li>
-								<li>Bringing own Basemaps.</li>
-								<li>Includes adding GeoJson.</li>
-								<li>Handles editing with plugins, and it’s easy to extend with plugins.</li>
-								</strong></ul>
+								<li><strong>First :</strong> Layer interaction, zooming/ panning, adding pop-ips, legend, scale-bar. </li>
+								<li><strong>Second :</strong> Allowing to easily adding Basemaps, Markers, circles and polygons to our map </li>
+								<li><strong>Third :</strong> Supporting common geospatial file formats including GeoJson.</li>
+								<li><strong>Fourth :</strong> Handles editing with plugins, and it’s easy to extend with plugins.</li>
+								
+
+							</ul>
 						<h3>Cons</h3>
-							<ul><strong>
-								<li>Not offering services on its own (Only relies on third party services.) for integration with other GIS applications. </li>
-								<li>Not using projections, and not working with different Geo data sources.</li>
-								</strong></ul>							
+							<ul>
+								<li><strong>First :</strong> Despite offering options to add interactive control as shown below for searching features/ marker, it remains addioonal skills to add them for multiple layers.  </li>
+								<p><span class="pics2"data-position="center"><img src="Images/Leaflet_Search.png" alt="Popup" style ="width:500px; height:300px;" /></span></p>
+
+								<li><strong>Second :</strong> Not offering services on its own (Only relies on third party services.) for integration with other GIS applications</li>
+								
+							</ul>
+							
+							
 						</div>
 					
 					</section>
+
 
 						
 						</div>
@@ -393,33 +392,11 @@
 									</strong></ul>
 							
 							
-												<h3><u>Overall Rating To This Project</u></h3>
-				<span class="fa fa-star checked"></span>
-<span class="fa fa-star "></span>
-<span class="fa fa-star "></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
+							</div>
 						</div>
 					</section>
 							
-					</section>
-							
-					<section id="first">
-						<header>
-							<h2>Our Solution</h2>
-						</header>
-						<div class="content">
-						
-						<p> After testing each software, the team came to a decision that ArcGIS Online was the best fit for this project. Overall, this software
-						proved to be the most balanced, having good interactivity, can be made relatively quickly, fits the team's skillset and although being the only software having a price, the product produced is definitely worth it. Click image below to view</p>
-						
-						<a href="https://fleming.maps.arcgis.com/apps/webappviewer/index.html?id=5347190638364656899946cad309d467">
-<img border="0" alt="W3Schools" src="Images/aa.JPG" width="400" height="300">
-</a>
-						
-						
-						
-							<p> Our Goal was to <strong> find </strong> the application that best suits this project. With the knowledge acquired the team can now move forward and build a final product for the Town of Deep River. </p>
+					
 				
 					<!-- Section -->
 					
